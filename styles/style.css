@@ -1,0 +1,268 @@
+/* global css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+section {
+  width: 100%;
+  padding: 80px 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* ****************** */
+
+/* header section */
+header {
+  width: 100%;
+  background-color: #0ab7e8;
+}
+header .inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header .inner-header .logo {
+  text-align: left;
+}
+header .inner-header .logo img {
+  width: 150px;
+}
+header .inner-header .menu {
+  text-align: center;
+}
+header .inner-header .menu h2 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+}
+header .inner-header .menu a {
+  display: inline-block;
+  color: #fff;
+  background: #ff7062;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ff7062;
+  border-radius: 3px;
+}
+
+/* quality section */
+.quality .inner-quality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 30px 0;
+}
+.quality .inner-quality .text {
+  width: 50%;
+}
+.quality .inner-quality .text h2 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: capitalize;
+  margin: 0 0 16px;
+}
+.quality .sec-2 .text h2 {
+  margin: 0 0 40px;
+}
+.quality .inner-quality .text p {
+  width: 85%;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+}
+.quality .inner-quality .img {
+  width: 50%;
+}
+.quality .inner-quality .img img {
+  width: 100%;
+}
+
+/* parallax section */
+.parallax-effect {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/paral.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parallax-effect .inner-parallax {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.parallax-effect .inner-parallax .item {
+  text-align: center;
+}
+.parallax-effect .inner-parallax .item .num {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 500;
+}
+.parallax-effect .inner-parallax .item .text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* shop-now section */
+.shop-now {
+  background-color: #0ab7e8;
+  padding: 40px 0;
+}
+.shop-now .inner-shopNow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.shop-now .inner-shopNow .img {
+  width: 15%;
+  text-align: left;
+}
+.shop-now .inner-shopNow .img img {
+  max-width: 100%;
+}
+.shop-now .inner-shopNow .heading h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+}
+.shop-now .inner-shopNow .btn {
+  width: 15%;
+}
+.shop-now .inner-shopNow .btn p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin: 0 0 10px;
+}
+.shop-now .inner-shopNow .btn a {
+  display: inline-block;
+  color: #0ab7e8;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 10px 35px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+/* difference section start */
+.difference .inner-difference {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.difference .title {
+  text-align: center;
+  padding: 0 0 80px;
+}
+.difference .title h2 {
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+}
+.difference .inner-difference .sec-1-3 {
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  padding: 40px 40px 40px 60px;
+}
+.difference .inner-difference .sec-1-3 .img1 img {
+  max-width: 80%;
+}
+.difference .inner-difference .sec-1-3 .img2 img {
+  max-width: 60%;
+}
+.difference .inner-difference .sec-1-3 .img {
+  text-align: center;
+  margin: 0 0 40px;
+}
+.difference .inner-difference .sec-1-3 .text h2 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 0 16px;
+  text-align: center;
+}
+.difference .inner-difference .sec-1-3 .text .text-info:not(:last-child) {
+  margin: 0 0 40px;
+}
+.difference .inner-difference .sec-1-3 .text h3 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+}
+.difference .inner-difference .sec-1-3 .text p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+}
+.difference .inner-difference .vs {
+  align-self: center;
+  background-color: #dce8ff;
+  padding: 20px 25px;
+  border-radius: 100%;
+}
+.difference .inner-difference .vs h2 {
+  font-size: 48px;
+}
+.difference .btn {
+  text-align: center;
+  padding: 100px 0;
+}
+.difference .btn p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin: 0 0 10px;
+}
+.difference .btn a {
+  display: inline-block;
+  color: #000;
+  background: #ff7062;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ff7062;
+  border-radius: 3px;
+}
